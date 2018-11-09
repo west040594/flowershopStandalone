@@ -16,7 +16,7 @@ public class App
             public void run(){
                 System.out.println("Увелечение цветок на " + increaseFlowers());
             }
-        },0,  3600 * 1000 ); // 10 min.
+        },0,  60 * 10 * 1000 ); // 10 min.
     }
 
     private static int increaseFlowers() {
